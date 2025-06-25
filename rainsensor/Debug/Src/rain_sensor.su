@@ -1,0 +1,3 @@
+../Src/rain_sensor.c:16:6:RainSensor_Init	4	static
+../Src/rain_sensor.c:42:9:RainSensor_ReadDigital	4	static
+../Src/rain_sensor.c:47:10:RainSensor_ReadAnalog	4	static

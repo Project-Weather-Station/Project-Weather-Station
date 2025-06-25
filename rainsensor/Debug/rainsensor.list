@@ -1,0 +1,641 @@
+
+rainsensor.elf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .isr_vector   00000188  08000000  08000000  00001000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .text         0000034c  08000188  08000188  00001188  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .rodata       00000000  080004d4  080004dc  000014dc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .ARM.extab    00000000  080004d4  080004d4  000014dc  2**0
+                  CONTENTS, READONLY
+  4 .ARM          00000000  080004d4  080004d4  000014dc  2**0
+                  CONTENTS, READONLY
+  5 .preinit_array 00000000  080004d4  080004dc  000014dc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .init_array   00000004  080004d4  080004d4  000014d4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .fini_array   00000004  080004d8  080004d8  000014d8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .data         00000000  20000000  20000000  000014dc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .ccmram       00000000  10000000  10000000  000014dc  2**0
+                  CONTENTS
+ 10 .bss          0000001c  20000000  20000000  00002000  2**2
+                  ALLOC
+ 11 ._user_heap_stack 00000604  2000001c  2000001c  00002000  2**0
+                  ALLOC
+ 12 .ARM.attributes 0000002a  00000000  00000000  000014dc  2**0
+                  CONTENTS, READONLY
+ 13 .debug_info   00000d33  00000000  00000000  00001506  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_abbrev 000003e4  00000000  00000000  00002239  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_aranges 000000d0  00000000  00000000  00002620  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_rnglists 0000008a  00000000  00000000  000026f0  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_macro  00017f9f  00000000  00000000  0000277a  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_line   00000f35  00000000  00000000  0001a719  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .debug_str    0008b8de  00000000  00000000  0001b64e  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 20 .comment      00000043  00000000  00000000  000a6f2c  2**0
+                  CONTENTS, READONLY
+ 21 .debug_frame  000001d8  00000000  00000000  000a6f70  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 22 .debug_loclists 00000025  00000000  00000000  000a7148  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 23 .debug_line_str 00000053  00000000  00000000  000a716d  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+
+Disassembly of section .text:
+
+08000188 <__do_global_dtors_aux>:
+ 8000188:	b510      	push	{r4, lr}
+ 800018a:	4c05      	ldr	r4, [pc, #20]	@ (80001a0 <__do_global_dtors_aux+0x18>)
+ 800018c:	7823      	ldrb	r3, [r4, #0]
+ 800018e:	b933      	cbnz	r3, 800019e <__do_global_dtors_aux+0x16>
+ 8000190:	4b04      	ldr	r3, [pc, #16]	@ (80001a4 <__do_global_dtors_aux+0x1c>)
+ 8000192:	b113      	cbz	r3, 800019a <__do_global_dtors_aux+0x12>
+ 8000194:	4804      	ldr	r0, [pc, #16]	@ (80001a8 <__do_global_dtors_aux+0x20>)
+ 8000196:	f3af 8000 	nop.w
+ 800019a:	2301      	movs	r3, #1
+ 800019c:	7023      	strb	r3, [r4, #0]
+ 800019e:	bd10      	pop	{r4, pc}
+ 80001a0:	20000000 	.word	0x20000000
+ 80001a4:	00000000 	.word	0x00000000
+ 80001a8:	080004bc 	.word	0x080004bc
+
+080001ac <frame_dummy>:
+ 80001ac:	b508      	push	{r3, lr}
+ 80001ae:	4b03      	ldr	r3, [pc, #12]	@ (80001bc <frame_dummy+0x10>)
+ 80001b0:	b11b      	cbz	r3, 80001ba <frame_dummy+0xe>
+ 80001b2:	4903      	ldr	r1, [pc, #12]	@ (80001c0 <frame_dummy+0x14>)
+ 80001b4:	4803      	ldr	r0, [pc, #12]	@ (80001c4 <frame_dummy+0x18>)
+ 80001b6:	f3af 8000 	nop.w
+ 80001ba:	bd08      	pop	{r3, pc}
+ 80001bc:	00000000 	.word	0x00000000
+ 80001c0:	20000004 	.word	0x20000004
+ 80001c4:	080004bc 	.word	0x080004bc
+
+080001c8 <LED_Init>:
+
+#include "rain_sensor.h"
+#include "stm32f4xx.h"
+
+void LED_Init(void)
+{
+ 80001c8:	b480      	push	{r7}
+ 80001ca:	af00      	add	r7, sp, #0
+    // Enable clock for GPIOD
+    RCC->AHB1ENR |= RCC_AHB1ENR_GPIODEN;
+ 80001cc:	4b10      	ldr	r3, [pc, #64]	@ (8000210 <LED_Init+0x48>)
+ 80001ce:	6b1b      	ldr	r3, [r3, #48]	@ 0x30
+ 80001d0:	4a0f      	ldr	r2, [pc, #60]	@ (8000210 <LED_Init+0x48>)
+ 80001d2:	f043 0308 	orr.w	r3, r3, #8
+ 80001d6:	6313      	str	r3, [r2, #48]	@ 0x30
+
+    // Set PD12 as output
+    GPIOD->MODER &= ~(0x3 << (12 * 2)); // Clear bits
+ 80001d8:	4b0e      	ldr	r3, [pc, #56]	@ (8000214 <LED_Init+0x4c>)
+ 80001da:	681b      	ldr	r3, [r3, #0]
+ 80001dc:	4a0d      	ldr	r2, [pc, #52]	@ (8000214 <LED_Init+0x4c>)
+ 80001de:	f023 7340 	bic.w	r3, r3, #50331648	@ 0x3000000
+ 80001e2:	6013      	str	r3, [r2, #0]
+    GPIOD->MODER |=  (0x1 << (12 * 2)); // Output mode
+ 80001e4:	4b0b      	ldr	r3, [pc, #44]	@ (8000214 <LED_Init+0x4c>)
+ 80001e6:	681b      	ldr	r3, [r3, #0]
+ 80001e8:	4a0a      	ldr	r2, [pc, #40]	@ (8000214 <LED_Init+0x4c>)
+ 80001ea:	f043 7380 	orr.w	r3, r3, #16777216	@ 0x1000000
+ 80001ee:	6013      	str	r3, [r2, #0]
+
+    // Push-pull, no pull-up/pull-down
+    GPIOD->OTYPER &= ~(1 << 12);
+ 80001f0:	4b08      	ldr	r3, [pc, #32]	@ (8000214 <LED_Init+0x4c>)
+ 80001f2:	685b      	ldr	r3, [r3, #4]
+ 80001f4:	4a07      	ldr	r2, [pc, #28]	@ (8000214 <LED_Init+0x4c>)
+ 80001f6:	f423 5380 	bic.w	r3, r3, #4096	@ 0x1000
+ 80001fa:	6053      	str	r3, [r2, #4]
+    GPIOD->PUPDR &= ~(0x3 << (12 * 2));
+ 80001fc:	4b05      	ldr	r3, [pc, #20]	@ (8000214 <LED_Init+0x4c>)
+ 80001fe:	68db      	ldr	r3, [r3, #12]
+ 8000200:	4a04      	ldr	r2, [pc, #16]	@ (8000214 <LED_Init+0x4c>)
+ 8000202:	f023 7340 	bic.w	r3, r3, #50331648	@ 0x3000000
+ 8000206:	60d3      	str	r3, [r2, #12]
+}
+ 8000208:	bf00      	nop
+ 800020a:	46bd      	mov	sp, r7
+ 800020c:	bc80      	pop	{r7}
+ 800020e:	4770      	bx	lr
+ 8000210:	40023800 	.word	0x40023800
+ 8000214:	40020c00 	.word	0x40020c00
+
+08000218 <LED_On>:
+
+void LED_On(void)
+{
+ 8000218:	b480      	push	{r7}
+ 800021a:	af00      	add	r7, sp, #0
+    GPIOD->ODR |= (1 << 12);
+ 800021c:	4b04      	ldr	r3, [pc, #16]	@ (8000230 <LED_On+0x18>)
+ 800021e:	695b      	ldr	r3, [r3, #20]
+ 8000220:	4a03      	ldr	r2, [pc, #12]	@ (8000230 <LED_On+0x18>)
+ 8000222:	f443 5380 	orr.w	r3, r3, #4096	@ 0x1000
+ 8000226:	6153      	str	r3, [r2, #20]
+}
+ 8000228:	bf00      	nop
+ 800022a:	46bd      	mov	sp, r7
+ 800022c:	bc80      	pop	{r7}
+ 800022e:	4770      	bx	lr
+ 8000230:	40020c00 	.word	0x40020c00
+
+08000234 <LED_Off>:
+
+void LED_Off(void)
+{
+ 8000234:	b480      	push	{r7}
+ 8000236:	af00      	add	r7, sp, #0
+    GPIOD->ODR &= ~(1 << 12);
+ 8000238:	4b04      	ldr	r3, [pc, #16]	@ (800024c <LED_Off+0x18>)
+ 800023a:	695b      	ldr	r3, [r3, #20]
+ 800023c:	4a03      	ldr	r2, [pc, #12]	@ (800024c <LED_Off+0x18>)
+ 800023e:	f423 5380 	bic.w	r3, r3, #4096	@ 0x1000
+ 8000242:	6153      	str	r3, [r2, #20]
+}
+ 8000244:	bf00      	nop
+ 8000246:	46bd      	mov	sp, r7
+ 8000248:	bc80      	pop	{r7}
+ 800024a:	4770      	bx	lr
+ 800024c:	40020c00 	.word	0x40020c00
+
+08000250 <delay_ms>:
+
+void delay_ms(volatile uint32_t ms)
+{
+ 8000250:	b480      	push	{r7}
+ 8000252:	b085      	sub	sp, #20
+ 8000254:	af00      	add	r7, sp, #0
+ 8000256:	6078      	str	r0, [r7, #4]
+    for (volatile uint32_t i = 0; i < ms * 8000; ++i); // Crude delay at 16 MHz
+ 8000258:	2300      	movs	r3, #0
+ 800025a:	60fb      	str	r3, [r7, #12]
+ 800025c:	e002      	b.n	8000264 <delay_ms+0x14>
+ 800025e:	68fb      	ldr	r3, [r7, #12]
+ 8000260:	3301      	adds	r3, #1
+ 8000262:	60fb      	str	r3, [r7, #12]
+ 8000264:	687b      	ldr	r3, [r7, #4]
+ 8000266:	f44f 52fa 	mov.w	r2, #8000	@ 0x1f40
+ 800026a:	fb03 f202 	mul.w	r2, r3, r2
+ 800026e:	68fb      	ldr	r3, [r7, #12]
+ 8000270:	429a      	cmp	r2, r3
+ 8000272:	d8f4      	bhi.n	800025e <delay_ms+0xe>
+}
+ 8000274:	bf00      	nop
+ 8000276:	bf00      	nop
+ 8000278:	3714      	adds	r7, #20
+ 800027a:	46bd      	mov	sp, r7
+ 800027c:	bc80      	pop	{r7}
+ 800027e:	4770      	bx	lr
+
+08000280 <main>:
+
+int main(void)
+{
+ 8000280:	b580      	push	{r7, lr}
+ 8000282:	b082      	sub	sp, #8
+ 8000284:	af00      	add	r7, sp, #0
+    RainSensor_Init();
+ 8000286:	f000 f81b 	bl	80002c0 <RainSensor_Init>
+    LED_Init();
+ 800028a:	f7ff ff9d 	bl	80001c8 <LED_Init>
+
+    while (1)
+    {
+        uint8_t digital = RainSensor_ReadDigital();
+ 800028e:	f000 f867 	bl	8000360 <RainSensor_ReadDigital>
+ 8000292:	4603      	mov	r3, r0
+ 8000294:	71fb      	strb	r3, [r7, #7]
+        uint16_t analog = RainSensor_ReadAnalog();
+ 8000296:	f000 f875 	bl	8000384 <RainSensor_ReadAnalog>
+ 800029a:	4603      	mov	r3, r0
+ 800029c:	80bb      	strh	r3, [r7, #4]
+
+        // Turn LED ON if rain is detected OR analog wetness < threshold
+        if (digital == 1 || analog < 2000)
+ 800029e:	79fb      	ldrb	r3, [r7, #7]
+ 80002a0:	2b01      	cmp	r3, #1
+ 80002a2:	d003      	beq.n	80002ac <main+0x2c>
+ 80002a4:	88bb      	ldrh	r3, [r7, #4]
+ 80002a6:	f5b3 6ffa 	cmp.w	r3, #2000	@ 0x7d0
+ 80002aa:	d202      	bcs.n	80002b2 <main+0x32>
+        {
+            LED_On();
+ 80002ac:	f7ff ffb4 	bl	8000218 <LED_On>
+ 80002b0:	e001      	b.n	80002b6 <main+0x36>
+        }
+        else
+        {
+            LED_Off();
+ 80002b2:	f7ff ffbf 	bl	8000234 <LED_Off>
+        }
+
+        delay_ms(500); // Optional delay
+ 80002b6:	f44f 70fa 	mov.w	r0, #500	@ 0x1f4
+ 80002ba:	f7ff ffc9 	bl	8000250 <delay_ms>
+    {
+ 80002be:	e7e6      	b.n	800028e <main+0xe>
+
+080002c0 <RainSensor_Init>:
+// Definitions
+#define DIGITAL_SENSOR_PORT GPIOC
+#define DIGITAL_SENSOR_PIN  13
+
+void RainSensor_Init(void)
+{
+ 80002c0:	b480      	push	{r7}
+ 80002c2:	af00      	add	r7, sp, #0
+    // ----- Digital Input Init (PC13) -----
+    RCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN;
+ 80002c4:	4b22      	ldr	r3, [pc, #136]	@ (8000350 <RainSensor_Init+0x90>)
+ 80002c6:	6b1b      	ldr	r3, [r3, #48]	@ 0x30
+ 80002c8:	4a21      	ldr	r2, [pc, #132]	@ (8000350 <RainSensor_Init+0x90>)
+ 80002ca:	f043 0304 	orr.w	r3, r3, #4
+ 80002ce:	6313      	str	r3, [r2, #48]	@ 0x30
+
+    // Set PC13 as input (00)
+    DIGITAL_SENSOR_PORT->MODER &= ~(0x3 << (DIGITAL_SENSOR_PIN * 2));
+ 80002d0:	4b20      	ldr	r3, [pc, #128]	@ (8000354 <RainSensor_Init+0x94>)
+ 80002d2:	681b      	ldr	r3, [r3, #0]
+ 80002d4:	4a1f      	ldr	r2, [pc, #124]	@ (8000354 <RainSensor_Init+0x94>)
+ 80002d6:	f023 6340 	bic.w	r3, r3, #201326592	@ 0xc000000
+ 80002da:	6013      	str	r3, [r2, #0]
+
+    // Optional: Pull-up
+    DIGITAL_SENSOR_PORT->PUPDR &= ~(0x3 << (DIGITAL_SENSOR_PIN * 2));
+ 80002dc:	4b1d      	ldr	r3, [pc, #116]	@ (8000354 <RainSensor_Init+0x94>)
+ 80002de:	68db      	ldr	r3, [r3, #12]
+ 80002e0:	4a1c      	ldr	r2, [pc, #112]	@ (8000354 <RainSensor_Init+0x94>)
+ 80002e2:	f023 6340 	bic.w	r3, r3, #201326592	@ 0xc000000
+ 80002e6:	60d3      	str	r3, [r2, #12]
+    DIGITAL_SENSOR_PORT->PUPDR |=  (0x1 << (DIGITAL_SENSOR_PIN * 2)); // Pull-up
+ 80002e8:	4b1a      	ldr	r3, [pc, #104]	@ (8000354 <RainSensor_Init+0x94>)
+ 80002ea:	68db      	ldr	r3, [r3, #12]
+ 80002ec:	4a19      	ldr	r2, [pc, #100]	@ (8000354 <RainSensor_Init+0x94>)
+ 80002ee:	f043 6380 	orr.w	r3, r3, #67108864	@ 0x4000000
+ 80002f2:	60d3      	str	r3, [r2, #12]
+
+    // ----- Analog Input Init (PA0 / ADC1_IN0) -----
+    RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
+ 80002f4:	4b16      	ldr	r3, [pc, #88]	@ (8000350 <RainSensor_Init+0x90>)
+ 80002f6:	6b1b      	ldr	r3, [r3, #48]	@ 0x30
+ 80002f8:	4a15      	ldr	r2, [pc, #84]	@ (8000350 <RainSensor_Init+0x90>)
+ 80002fa:	f043 0301 	orr.w	r3, r3, #1
+ 80002fe:	6313      	str	r3, [r2, #48]	@ 0x30
+    RCC->APB2ENR |= RCC_APB2ENR_ADC1EN;
+ 8000300:	4b13      	ldr	r3, [pc, #76]	@ (8000350 <RainSensor_Init+0x90>)
+ 8000302:	6c5b      	ldr	r3, [r3, #68]	@ 0x44
+ 8000304:	4a12      	ldr	r2, [pc, #72]	@ (8000350 <RainSensor_Init+0x90>)
+ 8000306:	f443 7380 	orr.w	r3, r3, #256	@ 0x100
+ 800030a:	6453      	str	r3, [r2, #68]	@ 0x44
+
+    GPIOA->MODER |= (0x3 << (0 * 2));  // Analog mode for PA0
+ 800030c:	4b12      	ldr	r3, [pc, #72]	@ (8000358 <RainSensor_Init+0x98>)
+ 800030e:	681b      	ldr	r3, [r3, #0]
+ 8000310:	4a11      	ldr	r2, [pc, #68]	@ (8000358 <RainSensor_Init+0x98>)
+ 8000312:	f043 0303 	orr.w	r3, r3, #3
+ 8000316:	6013      	str	r3, [r2, #0]
+    GPIOA->PUPDR &= ~(0x3 << (0 * 2)); // No pull-up/down
+ 8000318:	4b0f      	ldr	r3, [pc, #60]	@ (8000358 <RainSensor_Init+0x98>)
+ 800031a:	68db      	ldr	r3, [r3, #12]
+ 800031c:	4a0e      	ldr	r2, [pc, #56]	@ (8000358 <RainSensor_Init+0x98>)
+ 800031e:	f023 0303 	bic.w	r3, r3, #3
+ 8000322:	60d3      	str	r3, [r2, #12]
+
+    // ADC Configuration
+    ADC1->CR2 = 0;
+ 8000324:	4b0d      	ldr	r3, [pc, #52]	@ (800035c <RainSensor_Init+0x9c>)
+ 8000326:	2200      	movs	r2, #0
+ 8000328:	609a      	str	r2, [r3, #8]
+    ADC1->SQR3 = 0; // Channel 0 (PA0)
+ 800032a:	4b0c      	ldr	r3, [pc, #48]	@ (800035c <RainSensor_Init+0x9c>)
+ 800032c:	2200      	movs	r2, #0
+ 800032e:	635a      	str	r2, [r3, #52]	@ 0x34
+    ADC1->SMPR2 |= ADC_SMPR2_SMP0_2; // Sample time = 144 cycles
+ 8000330:	4b0a      	ldr	r3, [pc, #40]	@ (800035c <RainSensor_Init+0x9c>)
+ 8000332:	691b      	ldr	r3, [r3, #16]
+ 8000334:	4a09      	ldr	r2, [pc, #36]	@ (800035c <RainSensor_Init+0x9c>)
+ 8000336:	f043 0304 	orr.w	r3, r3, #4
+ 800033a:	6113      	str	r3, [r2, #16]
+    ADC1->CR2 |= ADC_CR2_ADON; // Enable ADC1
+ 800033c:	4b07      	ldr	r3, [pc, #28]	@ (800035c <RainSensor_Init+0x9c>)
+ 800033e:	689b      	ldr	r3, [r3, #8]
+ 8000340:	4a06      	ldr	r2, [pc, #24]	@ (800035c <RainSensor_Init+0x9c>)
+ 8000342:	f043 0301 	orr.w	r3, r3, #1
+ 8000346:	6093      	str	r3, [r2, #8]
+}
+ 8000348:	bf00      	nop
+ 800034a:	46bd      	mov	sp, r7
+ 800034c:	bc80      	pop	{r7}
+ 800034e:	4770      	bx	lr
+ 8000350:	40023800 	.word	0x40023800
+ 8000354:	40020800 	.word	0x40020800
+ 8000358:	40020000 	.word	0x40020000
+ 800035c:	40012000 	.word	0x40012000
+
+08000360 <RainSensor_ReadDigital>:
+
+uint8_t RainSensor_ReadDigital(void)
+{
+ 8000360:	b480      	push	{r7}
+ 8000362:	af00      	add	r7, sp, #0
+    return (DIGITAL_SENSOR_PORT->IDR & (1 << DIGITAL_SENSOR_PIN)) ? 1 : 0;
+ 8000364:	4b06      	ldr	r3, [pc, #24]	@ (8000380 <RainSensor_ReadDigital+0x20>)
+ 8000366:	691b      	ldr	r3, [r3, #16]
+ 8000368:	f403 5300 	and.w	r3, r3, #8192	@ 0x2000
+ 800036c:	2b00      	cmp	r3, #0
+ 800036e:	bf14      	ite	ne
+ 8000370:	2301      	movne	r3, #1
+ 8000372:	2300      	moveq	r3, #0
+ 8000374:	b2db      	uxtb	r3, r3
+}
+ 8000376:	4618      	mov	r0, r3
+ 8000378:	46bd      	mov	sp, r7
+ 800037a:	bc80      	pop	{r7}
+ 800037c:	4770      	bx	lr
+ 800037e:	bf00      	nop
+ 8000380:	40020800 	.word	0x40020800
+
+08000384 <RainSensor_ReadAnalog>:
+
+uint16_t RainSensor_ReadAnalog(void)
+{
+ 8000384:	b480      	push	{r7}
+ 8000386:	af00      	add	r7, sp, #0
+    ADC1->CR2 |= ADC_CR2_SWSTART;
+ 8000388:	4b09      	ldr	r3, [pc, #36]	@ (80003b0 <RainSensor_ReadAnalog+0x2c>)
+ 800038a:	689b      	ldr	r3, [r3, #8]
+ 800038c:	4a08      	ldr	r2, [pc, #32]	@ (80003b0 <RainSensor_ReadAnalog+0x2c>)
+ 800038e:	f043 4380 	orr.w	r3, r3, #1073741824	@ 0x40000000
+ 8000392:	6093      	str	r3, [r2, #8]
+    while (!(ADC1->SR & ADC_SR_EOC));
+ 8000394:	bf00      	nop
+ 8000396:	4b06      	ldr	r3, [pc, #24]	@ (80003b0 <RainSensor_ReadAnalog+0x2c>)
+ 8000398:	681b      	ldr	r3, [r3, #0]
+ 800039a:	f003 0302 	and.w	r3, r3, #2
+ 800039e:	2b00      	cmp	r3, #0
+ 80003a0:	d0f9      	beq.n	8000396 <RainSensor_ReadAnalog+0x12>
+    return ADC1->DR;
+ 80003a2:	4b03      	ldr	r3, [pc, #12]	@ (80003b0 <RainSensor_ReadAnalog+0x2c>)
+ 80003a4:	6cdb      	ldr	r3, [r3, #76]	@ 0x4c
+ 80003a6:	b29b      	uxth	r3, r3
+}
+ 80003a8:	4618      	mov	r0, r3
+ 80003aa:	46bd      	mov	sp, r7
+ 80003ac:	bc80      	pop	{r7}
+ 80003ae:	4770      	bx	lr
+ 80003b0:	40012000 	.word	0x40012000
+
+080003b4 <SystemInit>:
+  *         configuration.
+  * @param  None
+  * @retval None
+  */
+void SystemInit(void)
+{
+ 80003b4:	b580      	push	{r7, lr}
+ 80003b6:	af00      	add	r7, sp, #0
+  /* Configure the Vector Table location -------------------------------------*/
+#if defined(USER_VECT_TAB_ADDRESS)
+  SCB->VTOR = VECT_TAB_BASE_ADDRESS | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM */
+#endif /* USER_VECT_TAB_ADDRESS */
+
+  DWT_Init();
+ 80003b8:	f000 f802 	bl	80003c0 <DWT_Init>
+}
+ 80003bc:	bf00      	nop
+ 80003be:	bd80      	pop	{r7, pc}
+
+080003c0 <DWT_Init>:
+}
+#pragma GCC pop_options
+
+
+uint32_t DWT_Init(void)
+{
+ 80003c0:	b480      	push	{r7}
+ 80003c2:	af00      	add	r7, sp, #0
+    /* Disable TRC */
+    CoreDebug->DEMCR &= ~CoreDebug_DEMCR_TRCENA_Msk; // ~0x01000000;
+ 80003c4:	4b14      	ldr	r3, [pc, #80]	@ (8000418 <DWT_Init+0x58>)
+ 80003c6:	68db      	ldr	r3, [r3, #12]
+ 80003c8:	4a13      	ldr	r2, [pc, #76]	@ (8000418 <DWT_Init+0x58>)
+ 80003ca:	f023 7380 	bic.w	r3, r3, #16777216	@ 0x1000000
+ 80003ce:	60d3      	str	r3, [r2, #12]
+    /* Enable TRC */
+    CoreDebug->DEMCR |=  CoreDebug_DEMCR_TRCENA_Msk; // 0x01000000;
+ 80003d0:	4b11      	ldr	r3, [pc, #68]	@ (8000418 <DWT_Init+0x58>)
+ 80003d2:	68db      	ldr	r3, [r3, #12]
+ 80003d4:	4a10      	ldr	r2, [pc, #64]	@ (8000418 <DWT_Init+0x58>)
+ 80003d6:	f043 7380 	orr.w	r3, r3, #16777216	@ 0x1000000
+ 80003da:	60d3      	str	r3, [r2, #12]
+    /* Disable clock cycle counter */
+    DWT->CTRL &= ~DWT_CTRL_CYCCNTENA_Msk; //~0x00000001;
+ 80003dc:	4b0f      	ldr	r3, [pc, #60]	@ (800041c <DWT_Init+0x5c>)
+ 80003de:	681b      	ldr	r3, [r3, #0]
+ 80003e0:	4a0e      	ldr	r2, [pc, #56]	@ (800041c <DWT_Init+0x5c>)
+ 80003e2:	f023 0301 	bic.w	r3, r3, #1
+ 80003e6:	6013      	str	r3, [r2, #0]
+    /* Enable  clock cycle counter */
+    DWT->CTRL |=  DWT_CTRL_CYCCNTENA_Msk; //0x00000001;
+ 80003e8:	4b0c      	ldr	r3, [pc, #48]	@ (800041c <DWT_Init+0x5c>)
+ 80003ea:	681b      	ldr	r3, [r3, #0]
+ 80003ec:	4a0b      	ldr	r2, [pc, #44]	@ (800041c <DWT_Init+0x5c>)
+ 80003ee:	f043 0301 	orr.w	r3, r3, #1
+ 80003f2:	6013      	str	r3, [r2, #0]
+    /* Reset the clock cycle counter value */
+    DWT->CYCCNT = 0;
+ 80003f4:	4b09      	ldr	r3, [pc, #36]	@ (800041c <DWT_Init+0x5c>)
+ 80003f6:	2200      	movs	r2, #0
+ 80003f8:	605a      	str	r2, [r3, #4]
+    /* 3 NO OPERATION instructions */
+    __ASM volatile ("NOP");
+ 80003fa:	bf00      	nop
+    __ASM volatile ("NOP");
+ 80003fc:	bf00      	nop
+    __ASM volatile ("NOP");
+ 80003fe:	bf00      	nop
+    /* Check if clock cycle counter has started: 0 on success */
+    return !(DWT->CYCCNT);
+ 8000400:	4b06      	ldr	r3, [pc, #24]	@ (800041c <DWT_Init+0x5c>)
+ 8000402:	685b      	ldr	r3, [r3, #4]
+ 8000404:	2b00      	cmp	r3, #0
+ 8000406:	bf0c      	ite	eq
+ 8000408:	2301      	moveq	r3, #1
+ 800040a:	2300      	movne	r3, #0
+ 800040c:	b2db      	uxtb	r3, r3
+}
+ 800040e:	4618      	mov	r0, r3
+ 8000410:	46bd      	mov	sp, r7
+ 8000412:	bc80      	pop	{r7}
+ 8000414:	4770      	bx	lr
+ 8000416:	bf00      	nop
+ 8000418:	e000edf0 	.word	0xe000edf0
+ 800041c:	e0001000 	.word	0xe0001000
+
+08000420 <Reset_Handler>:
+
+  .section .text.Reset_Handler
+  .weak Reset_Handler
+  .type Reset_Handler, %function
+Reset_Handler:
+  ldr   r0, =_estack
+ 8000420:	480d      	ldr	r0, [pc, #52]	@ (8000458 <LoopForever+0x2>)
+  mov   sp, r0          /* set stack pointer */
+ 8000422:	4685      	mov	sp, r0
+/* Call the clock system initialization function.*/
+  bl  SystemInit
+ 8000424:	f7ff ffc6 	bl	80003b4 <SystemInit>
+
+/* Copy the data segment initializers from flash to SRAM */
+  ldr r0, =_sdata
+ 8000428:	480c      	ldr	r0, [pc, #48]	@ (800045c <LoopForever+0x6>)
+  ldr r1, =_edata
+ 800042a:	490d      	ldr	r1, [pc, #52]	@ (8000460 <LoopForever+0xa>)
+  ldr r2, =_sidata
+ 800042c:	4a0d      	ldr	r2, [pc, #52]	@ (8000464 <LoopForever+0xe>)
+  movs r3, #0
+ 800042e:	2300      	movs	r3, #0
+  b LoopCopyDataInit
+ 8000430:	e002      	b.n	8000438 <LoopCopyDataInit>
+
+08000432 <CopyDataInit>:
+
+CopyDataInit:
+  ldr r4, [r2, r3]
+ 8000432:	58d4      	ldr	r4, [r2, r3]
+  str r4, [r0, r3]
+ 8000434:	50c4      	str	r4, [r0, r3]
+  adds r3, r3, #4
+ 8000436:	3304      	adds	r3, #4
+
+08000438 <LoopCopyDataInit>:
+
+LoopCopyDataInit:
+  adds r4, r0, r3
+ 8000438:	18c4      	adds	r4, r0, r3
+  cmp r4, r1
+ 800043a:	428c      	cmp	r4, r1
+  bcc CopyDataInit
+ 800043c:	d3f9      	bcc.n	8000432 <CopyDataInit>
+
+/* Zero fill the bss segment. */
+  ldr r2, =_sbss
+ 800043e:	4a0a      	ldr	r2, [pc, #40]	@ (8000468 <LoopForever+0x12>)
+  ldr r4, =_ebss
+ 8000440:	4c0a      	ldr	r4, [pc, #40]	@ (800046c <LoopForever+0x16>)
+  movs r3, #0
+ 8000442:	2300      	movs	r3, #0
+  b LoopFillZerobss
+ 8000444:	e001      	b.n	800044a <LoopFillZerobss>
+
+08000446 <FillZerobss>:
+
+FillZerobss:
+  str  r3, [r2]
+ 8000446:	6013      	str	r3, [r2, #0]
+  adds r2, r2, #4
+ 8000448:	3204      	adds	r2, #4
+
+0800044a <LoopFillZerobss>:
+
+LoopFillZerobss:
+  cmp r2, r4
+ 800044a:	42a2      	cmp	r2, r4
+  bcc FillZerobss
+ 800044c:	d3fb      	bcc.n	8000446 <FillZerobss>
+
+/* Call static constructors */
+  bl __libc_init_array
+ 800044e:	f000 f811 	bl	8000474 <__libc_init_array>
+/* Call the application's entry point.*/
+  bl main
+ 8000452:	f7ff ff15 	bl	8000280 <main>
+
+08000456 <LoopForever>:
+
+LoopForever:
+  b LoopForever
+ 8000456:	e7fe      	b.n	8000456 <LoopForever>
+  ldr   r0, =_estack
+ 8000458:	20020000 	.word	0x20020000
+  ldr r0, =_sdata
+ 800045c:	20000000 	.word	0x20000000
+  ldr r1, =_edata
+ 8000460:	20000000 	.word	0x20000000
+  ldr r2, =_sidata
+ 8000464:	080004dc 	.word	0x080004dc
+  ldr r2, =_sbss
+ 8000468:	20000000 	.word	0x20000000
+  ldr r4, =_ebss
+ 800046c:	2000001c 	.word	0x2000001c
+
+08000470 <ADC_IRQHandler>:
+ * @retval : None
+*/
+  .section .text.Default_Handler,"ax",%progbits
+Default_Handler:
+Infinite_Loop:
+  b Infinite_Loop
+ 8000470:	e7fe      	b.n	8000470 <ADC_IRQHandler>
+	...
+
+08000474 <__libc_init_array>:
+ 8000474:	b570      	push	{r4, r5, r6, lr}
+ 8000476:	4d0d      	ldr	r5, [pc, #52]	@ (80004ac <__libc_init_array+0x38>)
+ 8000478:	4c0d      	ldr	r4, [pc, #52]	@ (80004b0 <__libc_init_array+0x3c>)
+ 800047a:	1b64      	subs	r4, r4, r5
+ 800047c:	10a4      	asrs	r4, r4, #2
+ 800047e:	2600      	movs	r6, #0
+ 8000480:	42a6      	cmp	r6, r4
+ 8000482:	d109      	bne.n	8000498 <__libc_init_array+0x24>
+ 8000484:	4d0b      	ldr	r5, [pc, #44]	@ (80004b4 <__libc_init_array+0x40>)
+ 8000486:	4c0c      	ldr	r4, [pc, #48]	@ (80004b8 <__libc_init_array+0x44>)
+ 8000488:	f000 f818 	bl	80004bc <_init>
+ 800048c:	1b64      	subs	r4, r4, r5
+ 800048e:	10a4      	asrs	r4, r4, #2
+ 8000490:	2600      	movs	r6, #0
+ 8000492:	42a6      	cmp	r6, r4
+ 8000494:	d105      	bne.n	80004a2 <__libc_init_array+0x2e>
+ 8000496:	bd70      	pop	{r4, r5, r6, pc}
+ 8000498:	f855 3b04 	ldr.w	r3, [r5], #4
+ 800049c:	4798      	blx	r3
+ 800049e:	3601      	adds	r6, #1
+ 80004a0:	e7ee      	b.n	8000480 <__libc_init_array+0xc>
+ 80004a2:	f855 3b04 	ldr.w	r3, [r5], #4
+ 80004a6:	4798      	blx	r3
+ 80004a8:	3601      	adds	r6, #1
+ 80004aa:	e7f2      	b.n	8000492 <__libc_init_array+0x1e>
+ 80004ac:	080004d4 	.word	0x080004d4
+ 80004b0:	080004d4 	.word	0x080004d4
+ 80004b4:	080004d4 	.word	0x080004d4
+ 80004b8:	080004d8 	.word	0x080004d8
+
+080004bc <_init>:
+ 80004bc:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+ 80004be:	bf00      	nop
+ 80004c0:	bcf8      	pop	{r3, r4, r5, r6, r7}
+ 80004c2:	bc08      	pop	{r3}
+ 80004c4:	469e      	mov	lr, r3
+ 80004c6:	4770      	bx	lr
+
+080004c8 <_fini>:
+ 80004c8:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+ 80004ca:	bf00      	nop
+ 80004cc:	bcf8      	pop	{r3, r4, r5, r6, r7}
+ 80004ce:	bc08      	pop	{r3}
+ 80004d0:	469e      	mov	lr, r3
+ 80004d2:	4770      	bx	lr
