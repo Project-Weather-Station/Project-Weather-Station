@@ -1,0 +1,5 @@
+../Src/lcd_i2c.c:14:13:LCD_SendNibble	1
+../Src/lcd_i2c.c:20:6:LCD_SendCmd	1
+../Src/lcd_i2c.c:25:6:LCD_SendData	1
+../Src/lcd_i2c.c:30:6:LCD_SendString	2
+../Src/lcd_i2c.c:34:6:LCD_Init	2

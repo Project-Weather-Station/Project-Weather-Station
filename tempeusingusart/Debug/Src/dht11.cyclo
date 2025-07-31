@@ -1,0 +1,6 @@
+../Src/dht11.c:8:13:delay_us	2
+../Src/dht11.c:17:13:DHT_SetPinOutput	1
+../Src/dht11.c:21:13:DHT_SetPinInput	1
+../Src/dht11.c:25:12:DHT_ReadBit	3
+../Src/dht11.c:32:5:DHT11_Read	6
+../Src/dht11.c:60:6:DHT11_Init	1
