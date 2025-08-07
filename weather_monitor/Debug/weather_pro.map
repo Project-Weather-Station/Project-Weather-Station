@@ -1,0 +1,1448 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+                              ./Src/main.o (sprintf)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o) (__sread)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o) (_close_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o) (errno)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o) (_impure_ptr)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o) (_lseek_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o) (_read_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o) (_write_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+                              ./Src/syscalls.o (__errno)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o) (_free_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o) (_malloc_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o) (__malloc_lock)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o) (_svfprintf_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o) (_printf_i)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o) (_fflush_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o) (memmove)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o) (memchr)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o) (memcpy)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o) (_realloc_r)
+/home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+                              /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .rodata        0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x00000000       0x7c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .group         0x00000000        0xc ./Src/adc.o
+ .text          0x00000000        0x0 ./Src/adc.o
+ .data          0x00000000        0x0 ./Src/adc.o
+ .bss           0x00000000        0x0 ./Src/adc.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/dht22.o
+ .text          0x00000000        0x0 ./Src/dht22.o
+ .data          0x00000000        0x0 ./Src/dht22.o
+ .bss           0x00000000        0x0 ./Src/dht22.o
+ .debug_macro   0x00000000      0xad8 ./Src/dht22.o
+ .debug_macro   0x00000000       0x2e ./Src/dht22.o
+ .debug_macro   0x00000000       0x2f ./Src/dht22.o
+ .debug_macro   0x00000000       0x22 ./Src/dht22.o
+ .debug_macro   0x00000000       0x8e ./Src/dht22.o
+ .debug_macro   0x00000000       0x51 ./Src/dht22.o
+ .debug_macro   0x00000000      0x103 ./Src/dht22.o
+ .debug_macro   0x00000000       0x6a ./Src/dht22.o
+ .debug_macro   0x00000000      0x1df ./Src/dht22.o
+ .debug_macro   0x00000000       0x1c ./Src/dht22.o
+ .debug_macro   0x00000000       0x22 ./Src/dht22.o
+ .debug_macro   0x00000000       0xd9 ./Src/dht22.o
+ .debug_macro   0x00000000     0x102d ./Src/dht22.o
+ .debug_macro   0x00000000      0x11f ./Src/dht22.o
+ .debug_macro   0x00000000    0x15e3c ./Src/dht22.o
+ .debug_macro   0x00000000       0x4a ./Src/dht22.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .group         0x00000000        0xc ./Src/itm.o
+ .text          0x00000000        0x0 ./Src/itm.o
+ .data          0x00000000        0x0 ./Src/itm.o
+ .bss           0x00000000        0x0 ./Src/itm.o
+ .text.__io_putchar
+                0x00000000       0x4c ./Src/itm.o
+ .debug_info    0x00000000       0xae ./Src/itm.o
+ .debug_abbrev  0x00000000       0x67 ./Src/itm.o
+ .debug_aranges
+                0x00000000       0x20 ./Src/itm.o
+ .debug_rnglists
+                0x00000000       0x13 ./Src/itm.o
+ .debug_macro   0x00000000       0x75 ./Src/itm.o
+ .debug_macro   0x00000000      0xad8 ./Src/itm.o
+ .debug_macro   0x00000000       0x22 ./Src/itm.o
+ .debug_macro   0x00000000       0x8e ./Src/itm.o
+ .debug_macro   0x00000000       0x51 ./Src/itm.o
+ .debug_macro   0x00000000      0x103 ./Src/itm.o
+ .debug_macro   0x00000000       0x6a ./Src/itm.o
+ .debug_macro   0x00000000      0x1df ./Src/itm.o
+ .debug_line    0x00000000      0x34a ./Src/itm.o
+ .debug_str     0x00000000     0x3e21 ./Src/itm.o
+ .comment       0x00000000       0x44 ./Src/itm.o
+ .debug_frame   0x00000000       0x38 ./Src/itm.o
+ .ARM.attributes
+                0x00000000       0x2e ./Src/itm.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .text          0x00000000        0x0 ./Src/main.o
+ .data          0x00000000        0x0 ./Src/main.o
+ .bss           0x00000000        0x0 ./Src/main.o
+ .debug_macro   0x00000000      0xad8 ./Src/main.o
+ .debug_macro   0x00000000       0x2e ./Src/main.o
+ .debug_macro   0x00000000       0x2f ./Src/main.o
+ .debug_macro   0x00000000       0x22 ./Src/main.o
+ .debug_macro   0x00000000       0x8e ./Src/main.o
+ .debug_macro   0x00000000       0x51 ./Src/main.o
+ .debug_macro   0x00000000      0x103 ./Src/main.o
+ .debug_macro   0x00000000       0x6a ./Src/main.o
+ .debug_macro   0x00000000      0x1df ./Src/main.o
+ .debug_macro   0x00000000       0x1c ./Src/main.o
+ .debug_macro   0x00000000       0x22 ./Src/main.o
+ .debug_macro   0x00000000       0xd9 ./Src/main.o
+ .debug_macro   0x00000000     0x102d ./Src/main.o
+ .debug_macro   0x00000000      0x11f ./Src/main.o
+ .debug_macro   0x00000000    0x15e3c ./Src/main.o
+ .debug_macro   0x00000000       0x4a ./Src/main.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/rain_sensor.o
+ .text          0x00000000        0x0 ./Src/rain_sensor.o
+ .data          0x00000000        0x0 ./Src/rain_sensor.o
+ .bss           0x00000000        0x0 ./Src/rain_sensor.o
+ .debug_macro   0x00000000      0xad8 ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x22 ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x8e ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x51 ./Src/rain_sensor.o
+ .debug_macro   0x00000000      0x103 ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x6a ./Src/rain_sensor.o
+ .debug_macro   0x00000000      0x1df ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x2e ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x2f ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x1c ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x22 ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0xd9 ./Src/rain_sensor.o
+ .debug_macro   0x00000000     0x102d ./Src/rain_sensor.o
+ .debug_macro   0x00000000      0x11f ./Src/rain_sensor.o
+ .debug_macro   0x00000000    0x15e3c ./Src/rain_sensor.o
+ .debug_macro   0x00000000       0x4a ./Src/rain_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/soil_sensor.o
+ .text          0x00000000        0x0 ./Src/soil_sensor.o
+ .data          0x00000000        0x0 ./Src/soil_sensor.o
+ .bss           0x00000000        0x0 ./Src/soil_sensor.o
+ .debug_macro   0x00000000      0xad8 ./Src/soil_sensor.o
+ .debug_macro   0x00000000       0x22 ./Src/soil_sensor.o
+ .debug_macro   0x00000000       0x8e ./Src/soil_sensor.o
+ .debug_macro   0x00000000       0x51 ./Src/soil_sensor.o
+ .debug_macro   0x00000000      0x103 ./Src/soil_sensor.o
+ .debug_macro   0x00000000       0x6a ./Src/soil_sensor.o
+ .debug_macro   0x00000000      0x1df ./Src/soil_sensor.o
+ .debug_macro   0x00000000       0x10 ./Src/soil_sensor.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/syscalls.o
+ .text          0x00000000        0x0 ./Src/syscalls.o
+ .data          0x00000000        0x0 ./Src/syscalls.o
+ .bss           0x00000000        0x0 ./Src/syscalls.o
+ .bss.__env     0x00000000        0x4 ./Src/syscalls.o
+ .data.environ  0x00000000        0x4 ./Src/syscalls.o
+ .text.initialise_monitor_handles
+                0x00000000        0xc ./Src/syscalls.o
+ .text._getpid  0x00000000        0xe ./Src/syscalls.o
+ .text._kill    0x00000000       0x20 ./Src/syscalls.o
+ .text._exit    0x00000000       0x16 ./Src/syscalls.o
+ .text._read    0x00000000       0x3a ./Src/syscalls.o
+ .text._write   0x00000000       0x38 ./Src/syscalls.o
+ .text._close   0x00000000       0x16 ./Src/syscalls.o
+ .text._fstat   0x00000000       0x1e ./Src/syscalls.o
+ .text._isatty  0x00000000       0x14 ./Src/syscalls.o
+ .text._lseek   0x00000000       0x18 ./Src/syscalls.o
+ .text._open    0x00000000       0x1a ./Src/syscalls.o
+ .text._wait    0x00000000       0x1e ./Src/syscalls.o
+ .text._unlink  0x00000000       0x1e ./Src/syscalls.o
+ .text._times   0x00000000       0x16 ./Src/syscalls.o
+ .text._stat    0x00000000       0x1e ./Src/syscalls.o
+ .text._link    0x00000000       0x20 ./Src/syscalls.o
+ .text._fork    0x00000000       0x16 ./Src/syscalls.o
+ .text._execve  0x00000000       0x22 ./Src/syscalls.o
+ .debug_info    0x00000000      0x6a3 ./Src/syscalls.o
+ .debug_abbrev  0x00000000      0x1b6 ./Src/syscalls.o
+ .debug_aranges
+                0x00000000       0xa8 ./Src/syscalls.o
+ .debug_rnglists
+                0x00000000       0x79 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x274 ./Src/syscalls.o
+ .debug_macro   0x00000000      0xad8 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x22 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x5b ./Src/syscalls.o
+ .debug_macro   0x00000000       0x24 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x94 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x43 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x34 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x57 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x190 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x370 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x4a ./Src/syscalls.o
+ .debug_macro   0x00000000       0x34 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x58 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x8e ./Src/syscalls.o
+ .debug_macro   0x00000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x00000000      0x185 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x3c ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x6a ./Src/syscalls.o
+ .debug_macro   0x00000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x00000000       0x52 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x22 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x52 ./Src/syscalls.o
+ .debug_macro   0x00000000       0xcf ./Src/syscalls.o
+ .debug_macro   0x00000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x00000000       0x3d ./Src/syscalls.o
+ .debug_macro   0x00000000       0x35 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x12c ./Src/syscalls.o
+ .debug_macro   0x00000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x29 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x242 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x1c ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x10 ./Src/syscalls.o
+ .debug_macro   0x00000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x146 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x103 ./Src/syscalls.o
+ .debug_macro   0x00000000      0x1df ./Src/syscalls.o
+ .debug_macro   0x00000000      0x18a ./Src/syscalls.o
+ .debug_macro   0x00000000       0x16 ./Src/syscalls.o
+ .debug_macro   0x00000000       0xce ./Src/syscalls.o
+ .debug_line    0x00000000      0x7aa ./Src/syscalls.o
+ .debug_str     0x00000000     0x99ac ./Src/syscalls.o
+ .comment       0x00000000       0x44 ./Src/syscalls.o
+ .debug_frame   0x00000000      0x2ac ./Src/syscalls.o
+ .ARM.attributes
+                0x00000000       0x2e ./Src/syscalls.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/sysmem.o
+ .text          0x00000000        0x0 ./Src/sysmem.o
+ .data          0x00000000        0x0 ./Src/sysmem.o
+ .bss           0x00000000        0x0 ./Src/sysmem.o
+ .debug_macro   0x00000000      0xad8 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x10 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x22 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x5b ./Src/sysmem.o
+ .debug_macro   0x00000000       0x24 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x94 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x43 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x34 ./Src/sysmem.o
+ .debug_macro   0x00000000      0x190 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x57 ./Src/sysmem.o
+ .debug_macro   0x00000000      0x370 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x16 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x4a ./Src/sysmem.o
+ .debug_macro   0x00000000       0x34 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x10 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x58 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x8e ./Src/sysmem.o
+ .debug_macro   0x00000000       0x1c ./Src/sysmem.o
+ .debug_macro   0x00000000      0x185 ./Src/sysmem.o
+ .debug_macro   0x00000000      0x103 ./Src/sysmem.o
+ .debug_macro   0x00000000       0x6a ./Src/sysmem.o
+ .debug_macro   0x00000000      0x1df ./Src/sysmem.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/system_stm32f4xx.o
+ .text          0x00000000        0x0 ./Src/system_stm32f4xx.o
+ .data          0x00000000        0x0 ./Src/system_stm32f4xx.o
+ .bss           0x00000000        0x0 ./Src/system_stm32f4xx.o
+ .rodata.AHBPrescTable
+                0x00000000       0x10 ./Src/system_stm32f4xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 ./Src/system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x100 ./Src/system_stm32f4xx.o
+ .text.SwDelayMs
+                0x00000000       0x14 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000      0xad8 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x2e ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x2f ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x22 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x8e ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x51 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000      0x103 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x6a ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000      0x1df ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x1c ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x22 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0xd9 ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000     0x102d ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000      0x11f ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000    0x15e3c ./Src/system_stm32f4xx.o
+ .debug_macro   0x00000000       0x4a ./Src/system_stm32f4xx.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .group         0x00000000        0xc ./Src/uart.o
+ .text          0x00000000        0x0 ./Src/uart.o
+ .data          0x00000000        0x0 ./Src/uart.o
+ .bss           0x00000000        0x0 ./Src/uart.o
+ .debug_macro   0x00000000      0xad8 ./Src/uart.o
+ .debug_macro   0x00000000       0x22 ./Src/uart.o
+ .debug_macro   0x00000000       0x8e ./Src/uart.o
+ .debug_macro   0x00000000       0x51 ./Src/uart.o
+ .debug_macro   0x00000000      0x103 ./Src/uart.o
+ .debug_macro   0x00000000       0x6a ./Src/uart.o
+ .debug_macro   0x00000000      0x1df ./Src/uart.o
+ .debug_macro   0x00000000       0x2e ./Src/uart.o
+ .debug_macro   0x00000000       0x2f ./Src/uart.o
+ .debug_macro   0x00000000       0x1c ./Src/uart.o
+ .debug_macro   0x00000000       0x22 ./Src/uart.o
+ .debug_macro   0x00000000       0xd9 ./Src/uart.o
+ .debug_macro   0x00000000     0x102d ./Src/uart.o
+ .debug_macro   0x00000000      0x11f ./Src/uart.o
+ .debug_macro   0x00000000    0x15e3c ./Src/uart.o
+ .debug_macro   0x00000000       0x4a ./Src/uart.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .group         0x00000000        0xc ./Src/utils.o
+ .text          0x00000000        0x0 ./Src/utils.o
+ .data          0x00000000        0x0 ./Src/utils.o
+ .bss           0x00000000        0x0 ./Src/utils.o
+ .text.int_to_str
+                0x00000000       0xc8 ./Src/utils.o
+ .debug_info    0x00000000      0x101 ./Src/utils.o
+ .debug_abbrev  0x00000000       0x8d ./Src/utils.o
+ .debug_aranges
+                0x00000000       0x20 ./Src/utils.o
+ .debug_rnglists
+                0x00000000       0x14 ./Src/utils.o
+ .debug_macro   0x00000000       0x63 ./Src/utils.o
+ .debug_macro   0x00000000      0xad8 ./Src/utils.o
+ .debug_macro   0x00000000       0x22 ./Src/utils.o
+ .debug_macro   0x00000000       0x8e ./Src/utils.o
+ .debug_macro   0x00000000       0x51 ./Src/utils.o
+ .debug_macro   0x00000000      0x103 ./Src/utils.o
+ .debug_macro   0x00000000       0x6a ./Src/utils.o
+ .debug_macro   0x00000000      0x1df ./Src/utils.o
+ .debug_line    0x00000000      0x382 ./Src/utils.o
+ .debug_str     0x00000000     0x3d8c ./Src/utils.o
+ .comment       0x00000000       0x44 ./Src/utils.o
+ .debug_frame   0x00000000       0x38 ./Src/utils.o
+ .ARM.attributes
+                0x00000000       0x2e ./Src/utils.o
+ .text          0x00000000       0x14 ./Startup/startup_stm32f407vgtx.o
+ .data          0x00000000        0x0 ./Startup/startup_stm32f407vgtx.o
+ .bss           0x00000000        0x0 ./Startup/startup_stm32f407vgtx.o
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+ .text.exit     0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000000       0x28 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x3c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x3c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x88 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .text.memset   0x00000000       0x10 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00000000       0x20 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xbc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x00000000       0xfa /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x100 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x5c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+ .ARM.extab     0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+ .eh_frame      0x00000000       0x50 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+ .rodata        0x00000000       0x24 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+ .text          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+ .data          0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+ .bss           0x00000000        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+CCMRAM           0x10000000         0x00010000         xrw
+RAM              0x20000000         0x00020000         xrw
+FLASH            0x08000000         0x00100000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+LOAD ./Src/adc.o
+LOAD ./Src/dht22.o
+LOAD ./Src/itm.o
+LOAD ./Src/main.o
+LOAD ./Src/rain_sensor.o
+LOAD ./Src/soil_sensor.o
+LOAD ./Src/syscalls.o
+LOAD ./Src/sysmem.o
+LOAD ./Src/system_stm32f4xx.o
+LOAD ./Src/uart.o
+LOAD ./Src/utils.o
+LOAD ./Startup/startup_stm32f407vgtx.o
+START GROUP
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libm.a
+END GROUP
+START GROUP
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a
+END GROUP
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtend.o
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+                0x20020000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x188
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ./Startup/startup_stm32f407vgtx.o
+                0x08000000                g_pfnVectors
+                0x08000188                        . = ALIGN (0x4)
+
+.text           0x08000190     0x118c
+                0x08000190                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000190       0x40 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x080001d0       0xa0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+                0x080001d0                memchr
+ *(.text*)
+ .text.adc_init
+                0x08000270       0x88 ./Src/adc.o
+                0x08000270                adc_init
+ .text.adc_read
+                0x080002f8       0x40 ./Src/adc.o
+                0x080002f8                adc_read
+ .text.delay_us
+                0x08000338       0x58 ./Src/dht22.o
+                0x08000338                delay_us
+ .text.set_pin_output
+                0x08000390       0x28 ./Src/dht22.o
+ .text.set_pin_input
+                0x080003b8       0x1c ./Src/dht22.o
+ .text.DHT11_Init
+                0x080003d4       0x2c ./Src/dht22.o
+                0x080003d4                DHT11_Init
+ .text.check_response
+                0x08000400       0x48 ./Src/dht22.o
+ .text.read_byte
+                0x08000448       0x70 ./Src/dht22.o
+ .text.DHT11_Read
+                0x080004b8       0xa0 ./Src/dht22.o
+                0x080004b8                DHT11_Read
+ .text.delay_ms
+                0x08000558       0x30 ./Src/main.o
+                0x08000558                delay_ms
+ .text.main     0x08000588       0xe4 ./Src/main.o
+                0x08000588                main
+ .text.RainSensor_Init
+                0x0800066c       0xa0 ./Src/rain_sensor.o
+                0x0800066c                RainSensor_Init
+ .text.RainSensor_ReadDigital
+                0x0800070c       0x24 ./Src/rain_sensor.o
+                0x0800070c                RainSensor_ReadDigital
+ .text.RainSensor_ReadAnalog
+                0x08000730       0x30 ./Src/rain_sensor.o
+                0x08000730                RainSensor_ReadAnalog
+ .text.read_soil_moisture
+                0x08000760       0x10 ./Src/soil_sensor.o
+                0x08000760                read_soil_moisture
+ .text._sbrk    0x08000770       0x6c ./Src/sysmem.o
+                0x08000770                _sbrk
+ .text.SystemInit
+                0x080007dc        0xc ./Src/system_stm32f4xx.o
+                0x080007dc                SystemInit
+ .text.DWT_Init
+                0x080007e8       0x60 ./Src/system_stm32f4xx.o
+                0x080007e8                DWT_Init
+ .text.UART2_Init
+                0x08000848       0x64 ./Src/uart.o
+                0x08000848                UART2_Init
+ .text.UART2_SendChar
+                0x080008ac       0x2c ./Src/uart.o
+                0x080008ac                UART2_SendChar
+ .text.UART2_SendString
+                0x080008d8       0x2a ./Src/uart.o
+                0x080008d8                UART2_SendString
+ *fill*         0x08000902        0x2 
+ .text.UART2_SendNumber
+                0x08000904       0x7c ./Src/uart.o
+                0x08000904                UART2_SendNumber
+ .text.Reset_Handler
+                0x08000980       0x50 ./Startup/startup_stm32f407vgtx.o
+                0x08000980                Reset_Handler
+ .text.Default_Handler
+                0x080009d0        0x2 ./Startup/startup_stm32f407vgtx.o
+                0x080009d0                RTC_Alarm_IRQHandler
+                0x080009d0                HASH_RNG_IRQHandler
+                0x080009d0                EXTI2_IRQHandler
+                0x080009d0                TIM8_CC_IRQHandler
+                0x080009d0                DebugMon_Handler
+                0x080009d0                TIM1_CC_IRQHandler
+                0x080009d0                DMA2_Stream5_IRQHandler
+                0x080009d0                HardFault_Handler
+                0x080009d0                DMA1_Stream5_IRQHandler
+                0x080009d0                SysTick_Handler
+                0x080009d0                PVD_IRQHandler
+                0x080009d0                SDIO_IRQHandler
+                0x080009d0                TAMP_STAMP_IRQHandler
+                0x080009d0                PendSV_Handler
+                0x080009d0                NMI_Handler
+                0x080009d0                CAN2_RX1_IRQHandler
+                0x080009d0                EXTI3_IRQHandler
+                0x080009d0                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080009d0                TIM1_UP_TIM10_IRQHandler
+                0x080009d0                TIM8_UP_TIM13_IRQHandler
+                0x080009d0                I2C3_ER_IRQHandler
+                0x080009d0                EXTI0_IRQHandler
+                0x080009d0                I2C2_EV_IRQHandler
+                0x080009d0                DMA1_Stream2_IRQHandler
+                0x080009d0                CAN1_RX0_IRQHandler
+                0x080009d0                FPU_IRQHandler
+                0x080009d0                OTG_HS_WKUP_IRQHandler
+                0x080009d0                UsageFault_Handler
+                0x080009d0                CAN2_SCE_IRQHandler
+                0x080009d0                DMA2_Stream2_IRQHandler
+                0x080009d0                SPI1_IRQHandler
+                0x080009d0                TIM6_DAC_IRQHandler
+                0x080009d0                TIM1_BRK_TIM9_IRQHandler
+                0x080009d0                DCMI_IRQHandler
+                0x080009d0                CAN2_RX0_IRQHandler
+                0x080009d0                DMA2_Stream3_IRQHandler
+                0x080009d0                USART6_IRQHandler
+                0x080009d0                USART3_IRQHandler
+                0x080009d0                CRYP_IRQHandler
+                0x080009d0                CAN1_RX1_IRQHandler
+                0x080009d0                UART5_IRQHandler
+                0x080009d0                DMA2_Stream0_IRQHandler
+                0x080009d0                TIM4_IRQHandler
+                0x080009d0                I2C1_EV_IRQHandler
+                0x080009d0                DMA1_Stream6_IRQHandler
+                0x080009d0                DMA1_Stream1_IRQHandler
+                0x080009d0                UART4_IRQHandler
+                0x080009d0                TIM3_IRQHandler
+                0x080009d0                RCC_IRQHandler
+                0x080009d0                TIM8_BRK_TIM12_IRQHandler
+                0x080009d0                Default_Handler
+                0x080009d0                EXTI15_10_IRQHandler
+                0x080009d0                ADC_IRQHandler
+                0x080009d0                DMA1_Stream7_IRQHandler
+                0x080009d0                TIM7_IRQHandler
+                0x080009d0                CAN2_TX_IRQHandler
+                0x080009d0                TIM5_IRQHandler
+                0x080009d0                DMA2_Stream7_IRQHandler
+                0x080009d0                I2C3_EV_IRQHandler
+                0x080009d0                EXTI9_5_IRQHandler
+                0x080009d0                RTC_WKUP_IRQHandler
+                0x080009d0                ETH_WKUP_IRQHandler
+                0x080009d0                SPI2_IRQHandler
+                0x080009d0                OTG_HS_EP1_IN_IRQHandler
+                0x080009d0                MemManage_Handler
+                0x080009d0                DMA1_Stream0_IRQHandler
+                0x080009d0                CAN1_TX_IRQHandler
+                0x080009d0                SVC_Handler
+                0x080009d0                EXTI4_IRQHandler
+                0x080009d0                FSMC_IRQHandler
+                0x080009d0                ETH_IRQHandler
+                0x080009d0                OTG_HS_EP1_OUT_IRQHandler
+                0x080009d0                WWDG_IRQHandler
+                0x080009d0                TIM2_IRQHandler
+                0x080009d0                OTG_FS_WKUP_IRQHandler
+                0x080009d0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080009d0                OTG_HS_IRQHandler
+                0x080009d0                EXTI1_IRQHandler
+                0x080009d0                USART2_IRQHandler
+                0x080009d0                I2C2_ER_IRQHandler
+                0x080009d0                DMA2_Stream1_IRQHandler
+                0x080009d0                CAN1_SCE_IRQHandler
+                0x080009d0                DMA2_Stream4_IRQHandler
+                0x080009d0                BusFault_Handler
+                0x080009d0                USART1_IRQHandler
+                0x080009d0                OTG_FS_IRQHandler
+                0x080009d0                SPI3_IRQHandler
+                0x080009d0                DMA1_Stream4_IRQHandler
+                0x080009d0                I2C1_ER_IRQHandler
+                0x080009d0                DMA2_Stream6_IRQHandler
+                0x080009d0                DMA1_Stream3_IRQHandler
+ *fill*         0x080009d2        0x2 
+ .text.sprintf  0x080009d4       0x44 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+                0x080009d4                sprintf
+                0x080009d4                siprintf
+ .text.__errno  0x08000a18        0xc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+                0x08000a18                __errno
+ .text.__libc_init_array
+                0x08000a24       0x48 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+                0x08000a24                __libc_init_array
+ .text.__retarget_lock_acquire_recursive
+                0x08000a6c        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+                0x08000a6c                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x08000a6e        0x2 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+                0x08000a6e                __retarget_lock_release_recursive
+ .text._free_r  0x08000a70       0x94 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+                0x08000a70                _free_r
+ .text.sbrk_aligned
+                0x08000b04       0x44 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x08000b48      0x100 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+                0x08000b48                _malloc_r
+ .text.__malloc_lock
+                0x08000c48        0xc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+                0x08000c48                __malloc_lock
+ .text.__malloc_unlock
+                0x08000c54        0xc /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+                0x08000c54                __malloc_unlock
+ .text.__ssputs_r
+                0x08000c60       0xb6 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08000c60                __ssputs_r
+ *fill*         0x08000d16        0x2 
+ .text._svfprintf_r
+                0x08000d18      0x1f8 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08000d18                _svfprintf_r
+                0x08000d18                _svfiprintf_r
+ .text._printf_common
+                0x08000f10       0xda /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08000f10                _printf_common
+ *fill*         0x08000fea        0x2 
+ .text._printf_i
+                0x08000fec      0x23c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08000fec                _printf_i
+ .text.memmove  0x08001228       0x34 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+                0x08001228                memmove
+ .text._sbrk_r  0x0800125c       0x20 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+                0x0800125c                _sbrk_r
+ .text.memcpy   0x0800127c       0x1c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+                0x0800127c                memcpy
+ .text._realloc_r
+                0x08001298       0x5c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+                0x08001298                _realloc_r
+ .text._malloc_usable_size_r
+                0x080012f4       0x10 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+                0x080012f4                _malloc_usable_size_r
+ *(.glue_7)
+ .glue_7        0x08001304        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08001304        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08001304        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x08001304        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+                0x08001304                _init
+ .init          0x08001308        0x8 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x08001310        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+                0x08001310                _fini
+ .fini          0x08001314        0x8 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0800131c                        . = ALIGN (0x4)
+                0x0800131c                        _etext = .
+
+.vfp11_veneer   0x0800131c        0x0
+ .vfp11_veneer  0x0800131c        0x0 linker stubs
+
+.v4_bx          0x0800131c        0x0
+ .v4_bx         0x0800131c        0x0 linker stubs
+
+.iplt           0x0800131c        0x0
+ .iplt          0x0800131c        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+
+.rodata         0x0800131c       0xa8
+                0x0800131c                        . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0800131c       0x74 ./Src/main.o
+ *(.rodata*)
+ .rodata._svfprintf_r.str1.1
+                0x08001390       0x33 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+                                 0x11 (size before relaxing)
+ .rodata._printf_i.str1.1
+                0x080013c3       0x22 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x080013e8                        . = ALIGN (0x4)
+ *fill*         0x080013c3        0x1 
+
+.ARM.extab      0x080013c4        0x0
+                0x080013c4                        . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080013c4                        . = ALIGN (0x4)
+
+.ARM            0x080013c4        0x8
+                0x080013c4                        . = ALIGN (0x4)
+                0x080013c4                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x080013c4        0x8 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+                0x080013cc                        __exidx_end = .
+                0x080013cc                        . = ALIGN (0x4)
+
+.preinit_array  0x080013cc        0x0
+                0x080013cc                        . = ALIGN (0x4)
+                0x080013cc                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x080013cc                        PROVIDE (__preinit_array_end = .)
+                0x080013cc                        . = ALIGN (0x4)
+
+.init_array     0x080013cc        0x4
+                0x080013cc                        . = ALIGN (0x4)
+                0x080013cc                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x080013cc        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x080013d0                        PROVIDE (__init_array_end = .)
+                0x080013d0                        . = ALIGN (0x4)
+
+.fini_array     0x080013d0        0x4
+                0x080013d0                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x080013d0        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x080013d4                        . = ALIGN (0x4)
+                0x080013d4                        _sidata = LOADADDR (.data)
+
+.rel.dyn        0x080013d4        0x0
+ .rel.iplt      0x080013d4        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+
+.data           0x20000000       0x54 load address 0x080013d4
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 ./Src/system_stm32f4xx.o
+                0x20000000                SystemCoreClock
+ .data._impure_ptr
+                0x20000004        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+                0x20000004                _impure_ptr
+ .data._impure_data
+                0x20000008       0x4c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+                0x20000008                _impure_data
+ *(.RamFunc)
+ *(.RamFunc*)
+                0x20000054                        . = ALIGN (0x4)
+                0x20000054                        _edata = .
+                0x08001428                        _siccmram = LOADADDR (.ccmram)
+
+.igot.plt       0x20000054        0x0 load address 0x08001428
+ .igot.plt      0x20000054        0x0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+
+.ccmram         0x10000000        0x0 load address 0x08001428
+                0x10000000                        . = ALIGN (0x4)
+                0x10000000                        _sccmram = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x10000000                        . = ALIGN (0x4)
+                0x10000000                        _eccmram = .
+                0x10000000                        . = ALIGN (0x4)
+
+.bss            0x20000054      0x168
+                0x20000054                        _sbss = .
+                0x20000054                        __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000054       0x1c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.bss*)
+ .bss.__sbrk_heap_end
+                0x20000070        0x4 ./Src/sysmem.o
+ .bss.__sf      0x20000074      0x138 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+                0x20000074                __sf
+ .bss.errno     0x200001ac        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+                0x200001ac                errno
+ .bss.__lock___malloc_recursive_mutex
+                0x200001b0        0x1 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+                0x200001b0                __lock___malloc_recursive_mutex
+ *fill*         0x200001b1        0x3 
+ .bss.__malloc_sbrk_start
+                0x200001b4        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+                0x200001b4                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x200001b8        0x4 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+                0x200001b8                __malloc_free_list
+ *(COMMON)
+                0x200001bc                        . = ALIGN (0x4)
+                0x200001bc                        _ebss = .
+                0x200001bc                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x200001bc      0x604
+                0x200001c0                        . = ALIGN (0x8)
+ *fill*         0x200001bc        0x4 
+                [!provide]                        PROVIDE (end = .)
+                0x200001c0                        PROVIDE (_end = .)
+                0x200003c0                        . = (. + _Min_Heap_Size)
+ *fill*         0x200001c0      0x200 
+                0x200007c0                        . = (. + _Min_Stack_Size)
+ *fill*         0x200003c0      0x400 
+                0x200007c0                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004c       0x2e ./Src/adc.o
+ .ARM.attributes
+                0x0000007a       0x2e ./Src/dht22.o
+ .ARM.attributes
+                0x000000a8       0x2e ./Src/main.o
+ .ARM.attributes
+                0x000000d6       0x2e ./Src/rain_sensor.o
+ .ARM.attributes
+                0x00000104       0x2e ./Src/soil_sensor.o
+ .ARM.attributes
+                0x00000132       0x2e ./Src/sysmem.o
+ .ARM.attributes
+                0x00000160       0x2e ./Src/system_stm32f4xx.o
+ .ARM.attributes
+                0x0000018e       0x2e ./Src/uart.o
+ .ARM.attributes
+                0x000001bc       0x21 ./Startup/startup_stm32f407vgtx.o
+ .ARM.attributes
+                0x000001dd       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x0000020b       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+ .ARM.attributes
+                0x00000239       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000267       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000295       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x000002c3       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x000002f1       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x0000031f       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x0000034d       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x0000037b       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x000003a9       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x000003d7       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000405       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+ .ARM.attributes
+                0x00000433       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000461       0x1c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memchr.o)
+ .ARM.attributes
+                0x0000047d       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000004ab       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+ .ARM.attributes
+                0x000004d9       0x2e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x00000507       0x1e /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtn.o
+OUTPUT(weather_pro.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libm.a
+LOAD /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/libgcc.a
+
+.debug_info     0x00000000     0x1aaf
+ .debug_info    0x00000000      0x43b ./Src/adc.o
+ .debug_info    0x0000043b      0x4a4 ./Src/dht22.o
+ .debug_info    0x000008df      0x250 ./Src/main.o
+ .debug_info    0x00000b2f      0x408 ./Src/rain_sensor.o
+ .debug_info    0x00000f37       0xcd ./Src/soil_sensor.o
+ .debug_info    0x00001004      0x168 ./Src/sysmem.o
+ .debug_info    0x0000116c      0x546 ./Src/system_stm32f4xx.o
+ .debug_info    0x000016b2      0x3cd ./Src/uart.o
+ .debug_info    0x00001a7f       0x30 ./Startup/startup_stm32f407vgtx.o
+
+.debug_abbrev   0x00000000      0x8e3
+ .debug_abbrev  0x00000000      0x11b ./Src/adc.o
+ .debug_abbrev  0x0000011b      0x186 ./Src/dht22.o
+ .debug_abbrev  0x000002a1      0x153 ./Src/main.o
+ .debug_abbrev  0x000003f4      0x107 ./Src/rain_sensor.o
+ .debug_abbrev  0x000004fb       0x74 ./Src/soil_sensor.o
+ .debug_abbrev  0x0000056f       0xbc ./Src/sysmem.o
+ .debug_abbrev  0x0000062b      0x163 ./Src/system_stm32f4xx.o
+ .debug_abbrev  0x0000078e      0x131 ./Src/uart.o
+ .debug_abbrev  0x000008bf       0x24 ./Startup/startup_stm32f407vgtx.o
+
+.debug_aranges  0x00000000      0x1a8
+ .debug_aranges
+                0x00000000       0x28 ./Src/adc.o
+ .debug_aranges
+                0x00000028       0x50 ./Src/dht22.o
+ .debug_aranges
+                0x00000078       0x28 ./Src/main.o
+ .debug_aranges
+                0x000000a0       0x30 ./Src/rain_sensor.o
+ .debug_aranges
+                0x000000d0       0x20 ./Src/soil_sensor.o
+ .debug_aranges
+                0x000000f0       0x20 ./Src/sysmem.o
+ .debug_aranges
+                0x00000110       0x38 ./Src/system_stm32f4xx.o
+ .debug_aranges
+                0x00000148       0x38 ./Src/uart.o
+ .debug_aranges
+                0x00000180       0x28 ./Startup/startup_stm32f407vgtx.o
+
+.debug_rnglists
+                0x00000000      0x116
+ .debug_rnglists
+                0x00000000       0x1a ./Src/adc.o
+ .debug_rnglists
+                0x0000001a       0x38 ./Src/dht22.o
+ .debug_rnglists
+                0x00000052       0x1a ./Src/main.o
+ .debug_rnglists
+                0x0000006c       0x20 ./Src/rain_sensor.o
+ .debug_rnglists
+                0x0000008c       0x13 ./Src/soil_sensor.o
+ .debug_rnglists
+                0x0000009f       0x13 ./Src/sysmem.o
+ .debug_rnglists
+                0x000000b2       0x26 ./Src/system_stm32f4xx.o
+ .debug_rnglists
+                0x000000d8       0x25 ./Src/uart.o
+ .debug_rnglists
+                0x000000fd       0x19 ./Startup/startup_stm32f407vgtx.o
+
+.debug_macro    0x00000000    0x19553
+ .debug_macro   0x00000000       0xd8 ./Src/adc.o
+ .debug_macro   0x000000d8      0xad8 ./Src/adc.o
+ .debug_macro   0x00000bb0       0x22 ./Src/adc.o
+ .debug_macro   0x00000bd2       0x8e ./Src/adc.o
+ .debug_macro   0x00000c60       0x51 ./Src/adc.o
+ .debug_macro   0x00000cb1      0x103 ./Src/adc.o
+ .debug_macro   0x00000db4       0x6a ./Src/adc.o
+ .debug_macro   0x00000e1e      0x1df ./Src/adc.o
+ .debug_macro   0x00000ffd       0x2e ./Src/adc.o
+ .debug_macro   0x0000102b       0x2f ./Src/adc.o
+ .debug_macro   0x0000105a       0x1c ./Src/adc.o
+ .debug_macro   0x00001076       0x22 ./Src/adc.o
+ .debug_macro   0x00001098       0xd9 ./Src/adc.o
+ .debug_macro   0x00001171     0x102d ./Src/adc.o
+ .debug_macro   0x0000219e      0x11f ./Src/adc.o
+ .debug_macro   0x000022bd    0x15e3c ./Src/adc.o
+ .debug_macro   0x000180f9       0x4a ./Src/adc.o
+ .debug_macro   0x00018143       0xe4 ./Src/dht22.o
+ .debug_macro   0x00018227      0x1d6 ./Src/main.o
+ .debug_macro   0x000183fd       0x61 ./Src/main.o
+ .debug_macro   0x0001845e       0x24 ./Src/main.o
+ .debug_macro   0x00018482       0x43 ./Src/main.o
+ .debug_macro   0x000184c5       0x34 ./Src/main.o
+ .debug_macro   0x000184f9       0x16 ./Src/main.o
+ .debug_macro   0x0001850f       0x9e ./Src/main.o
+ .debug_macro   0x000185ad      0x370 ./Src/main.o
+ .debug_macro   0x0001891d      0x112 ./Src/main.o
+ .debug_macro   0x00018a2f       0x10 ./Src/main.o
+ .debug_macro   0x00018a3f       0x16 ./Src/main.o
+ .debug_macro   0x00018a55       0x4a ./Src/main.o
+ .debug_macro   0x00018a9f       0x34 ./Src/main.o
+ .debug_macro   0x00018ad3       0x10 ./Src/main.o
+ .debug_macro   0x00018ae3       0x58 ./Src/main.o
+ .debug_macro   0x00018b3b       0x8e ./Src/main.o
+ .debug_macro   0x00018bc9       0x1c ./Src/main.o
+ .debug_macro   0x00018be5      0x185 ./Src/main.o
+ .debug_macro   0x00018d6a       0x16 ./Src/main.o
+ .debug_macro   0x00018d80       0x16 ./Src/main.o
+ .debug_macro   0x00018d96      0x146 ./Src/main.o
+ .debug_macro   0x00018edc       0x10 ./Src/main.o
+ .debug_macro   0x00018eec       0xe4 ./Src/rain_sensor.o
+ .debug_macro   0x00018fd0       0x7c ./Src/soil_sensor.o
+ .debug_macro   0x0001904c      0x112 ./Src/sysmem.o
+ .debug_macro   0x0001915e      0x23c ./Src/sysmem.o
+ .debug_macro   0x0001939a       0xe1 ./Src/system_stm32f4xx.o
+ .debug_macro   0x0001947b       0xd8 ./Src/uart.o
+
+.debug_line     0x00000000     0x24df
+ .debug_line    0x00000000      0x42d ./Src/adc.o
+ .debug_line    0x0000042d      0x55f ./Src/dht22.o
+ .debug_line    0x0000098c      0x58b ./Src/main.o
+ .debug_line    0x00000f17      0x460 ./Src/rain_sensor.o
+ .debug_line    0x00001377      0x347 ./Src/soil_sensor.o
+ .debug_line    0x000016be      0x486 ./Src/sysmem.o
+ .debug_line    0x00001b44      0x4a8 ./Src/system_stm32f4xx.o
+ .debug_line    0x00001fec      0x478 ./Src/uart.o
+ .debug_line    0x00002464       0x7b ./Startup/startup_stm32f407vgtx.o
+
+.debug_str      0x00000000    0x8bf89
+ .debug_str     0x00000000    0x8bf89 ./Src/adc.o
+                              0x87d69 (size before relaxing)
+ .debug_str     0x0008bf89    0x87dc2 ./Src/dht22.o
+ .debug_str     0x0008bf89    0x8b7e6 ./Src/main.o
+ .debug_str     0x0008bf89    0x87db9 ./Src/rain_sensor.o
+ .debug_str     0x0008bf89     0x3de3 ./Src/soil_sensor.o
+ .debug_str     0x0008bf89     0x774a ./Src/sysmem.o
+ .debug_str     0x0008bf89    0x87e2b ./Src/system_stm32f4xx.o
+ .debug_str     0x0008bf89    0x87d16 ./Src/uart.o
+ .debug_str     0x0008bf89       0x76 ./Startup/startup_stm32f407vgtx.o
+
+.comment        0x00000000       0x43
+ .comment       0x00000000       0x43 ./Src/adc.o
+                                 0x44 (size before relaxing)
+ .comment       0x00000043       0x44 ./Src/dht22.o
+ .comment       0x00000043       0x44 ./Src/main.o
+ .comment       0x00000043       0x44 ./Src/rain_sensor.o
+ .comment       0x00000043       0x44 ./Src/soil_sensor.o
+ .comment       0x00000043       0x44 ./Src/sysmem.o
+ .comment       0x00000043       0x44 ./Src/system_stm32f4xx.o
+ .comment       0x00000043       0x44 ./Src/uart.o
+
+.debug_frame    0x00000000      0x910
+ .debug_frame   0x00000000       0x58 ./Src/adc.o
+ .debug_frame   0x00000058      0x100 ./Src/dht22.o
+ .debug_frame   0x00000158       0x58 ./Src/main.o
+ .debug_frame   0x000001b0       0x70 ./Src/rain_sensor.o
+ .debug_frame   0x00000220       0x2c ./Src/soil_sensor.o
+ .debug_frame   0x0000024c       0x34 ./Src/sysmem.o
+ .debug_frame   0x00000280       0x84 ./Src/system_stm32f4xx.o
+ .debug_frame   0x00000304       0xa0 ./Src/uart.o
+ .debug_frame   0x000003a4      0x144 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x000004e8       0x74 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sprintf.o)
+ .debug_frame   0x0000055c       0x38 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000594       0x20 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x000005b4       0x2c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-init.o)
+ .debug_frame   0x000005e0       0xb0 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000690       0x38 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x000006c8       0x50 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00000718       0x30 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000748       0x90 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x000007d8       0x60 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000838       0x28 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memmove.o)
+ .debug_frame   0x00000860       0x2c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x0000088c       0x28 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x000008b4       0x3c /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-reallocr.o)
+ .debug_frame   0x000008f0       0x20 /home/sunbeam/stm/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.linux64_1.0.0.202410170706/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(libc_a-msizer.o)
+
+.debug_loclists
+                0x00000000       0x25
+ .debug_loclists
+                0x00000000       0x25 ./Src/system_stm32f4xx.o
+
+.debug_line_str
+                0x00000000       0x5a
+ .debug_line_str
+                0x00000000       0x5a ./Startup/startup_stm32f407vgtx.o

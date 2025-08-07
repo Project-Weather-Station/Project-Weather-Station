@@ -1,0 +1,4 @@
+../Src/uart.c:11:6:UART2_Init	4	static
+../Src/uart.c:27:6:UART2_SendChar	16	static
+../Src/uart.c:33:6:UART2_SendString	16	static
+../Src/uart.c:41:6:UART2_SendNumber	32	static

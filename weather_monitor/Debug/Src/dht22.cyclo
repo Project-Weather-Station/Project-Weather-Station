@@ -1,0 +1,7 @@
+../Src/dht22.c:6:6:delay_us	2
+../Src/dht22.c:16:13:set_pin_output	1
+../Src/dht22.c:22:13:set_pin_input	1
+../Src/dht22.c:27:6:DHT11_Init	1
+../Src/dht22.c:34:16:check_response	3
+../Src/dht22.c:48:16:read_byte	5
+../Src/dht22.c:63:9:DHT11_Read	3
